@@ -1,0 +1,389 @@
+
+/* 顶部导航样式开始 */
+.juzhong{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_login{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 44px;
+}
+.nav_login p{
+    color: #666666;
+    float: left;
+    line-height: 44px
+
+}
+.nav_login .p_login{
+    float: right;
+}
+.nav_logo{
+    background-color: white;
+    width: 100%;
+    height: 105px;
+}
+.nav_logo img{
+    float: left;
+}
+.nav_img{
+    width: 100%;
+    height: 250px;
+}
+.nav_img img{
+    width: 100%;
+    height:100%;
+}
+.nav_label{
+    background-color: #c28f47;
+    height: 80px;
+}
+.nav_label li{
+    width: 170px;
+    margin: 0 65px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+    color: white;
+    float: left;
+    text-align: center;
+}
+.nav_label li:hover{
+    background-color: #98661f;
+    border-radius: 10px;
+}
+.action{
+    background-color: #98661f;
+    border-radius: 10px;
+}
+/* 搜索部分开始 */
+
+
+.search_box{
+width: 100%;
+height: 100px;
+background-color: #EFEFEF;
+
+}
+.search_content{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.search_select{
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.search_select select{
+    width: 270px;
+    height: 40px;
+    margin-left: 10px;
+}
+.select_btn{
+    width:135px;
+    height: 40px;
+    background-color: #C28F47;
+    float: left;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    line-height: 40px;
+}
+/* 搜索部分结束 */
+/* 热门推荐开始 */
+.every_day{
+    width:176px;
+    height: 50px;
+    float: left;
+}
+.watch_all{
+    width:1029px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: right;
+    border-bottom: 5px solid #EADBC5;
+    box-sizing: border-box;
+    margin-left: -5px;
+}
+.every_day img{
+    width: 100%;
+    height: 100%;
+}
+.hot_title{
+ width: 100%;
+ height: 50px;
+ margin-top: 45px;
+ margin-bottom: 30px;
+overflow: hidden;
+ position: relative;
+}
+.every_day_title{
+    position: absolute;
+    top:13px;
+    left: 10px;
+}
+.hot_box{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.hot_content{
+    width: 1200px;
+}
+.hot_content ul{
+    margin-right: -25px
+}
+.hot_content li{
+    width: 220px;
+    height: 300px;
+
+    margin-right: 25px;
+    margin-bottom: 30px;
+    float: left;
+    position: relative;
+}
+.hot_content_dec{
+    height: 40px;
+    background-color: rgba(0, 0,0, .5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+.hot_content_name{
+    width: 60px;
+    height:40px;
+    float: left;
+    line-height: 40px;
+    color: white;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.hot_content_price{
+    width: 150px;
+    height:40px;
+    float: left;
+    text-align: right;
+    line-height: 40px;
+    color: white;
+}
+
+.hot_content_img img{
+    width: 100%;
+
+}
+.tuijian{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 热门推荐结束 */
+
+
+
+/* 我的优势开始 */
+.advantage_box{
+width: 1200px;
+overflow: hidden;
+margin:0 auto;
+}
+.lunbo{
+    position: relative;
+
+    height: 375px;
+    width:600px;
+}
+.lunbo p{
+    position: absolute;
+    bottom:-50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #F3F2F2;
+    box-sizing: border-box
+
+}
+.lunbo img{
+    width: 100%;
+}
+
+/* 我的优势结束 */
+
+/* 合作伙伴开始 */
+.friend_box{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.friend_content ul {
+    margin-right: -13.33px;
+}
+.friend_content li{
+    width: 160px;
+    height: 60px;
+    float: left;
+    margin-right: 11px;
+    border: 1px solid #EEEEEE ;
+    margin-bottom: 15px;
+}
+.friend_content img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 合作伙伴结束 */
+
+
+
+
+
+
+
+/* 底部开始 */
+.footer{
+    width: 100%;
+    height: 176px;
+    background: #222;
+}
+.footer_warp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_left{
+    float: left;
+    padding-top: 45px;
+    text-align: left;
+}
+.footer_left_top{
+    color: #d4d4d4;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+.footer_left_content{
+    color: #d4d4d4;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+.footer_left_bottom{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+.footer_right{
+    float: right;
+}
+.QR_left{
+    float: left;
+    margin-top: 28px;
+    position: relative;
+    margin-left: 32px;
+}
+.QR_left p{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.QR_left_img{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+/* 固定定位导航样式开始 */
+.QR_right_top{
+    position: fixed;
+    bottom:180px;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    background: #C28F47;
+}
+.QR_right_top>img{
+    margin: 19px;
+}
+.QR_right_bottom{
+    position: fixed;
+    bottom:124px;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    background: #000;
+}
+.QR_right_bottom>img{
+    margin: 19px;
+}
+.QR_right_top:hover .QR_box{
+    display: block;
+}
+.QR_box{
+    display: none
+}
+.QR_box_content{
+    width:150px;
+    height:199px;
+    border:1px solid rgba(216, 216, 216, 1);
+    position: absolute;
+    top:0px;
+    right: 70px;
+    background: #fff;
+}
+.QR_box_triangle{
+    position: absolute;
+    top: 20px;
+    right:61.5px ;
+}
+.QR_box_content img{
+    margin: 12px 11px 60px 12px;
+    position: relative;
+}
+.QR_box_content_font{
+    position: absolute;
+    right: 18px;
+    bottom: 14px;
+    width: 110px;
+    height: 34px;
+    color: #333333;
+    font-size: 14px;
+}
+/* 固定定位导航样式结束 */
+/* banner */
+#banner {
+    margin: 50px auto 0;
+}
+
+.swiper-slide {
+    width: 600px;
+    height: 450px;
+}
+
+.banner_page {
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+}
+
+.banner_page span {
+    margin: 0 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+    width: 16px;
+    border-radius: 8px;
+}
+
+.hot_content_img >img{
+    width: 220px;
+    height: 300px;
+}

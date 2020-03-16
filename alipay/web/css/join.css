@@ -1,0 +1,222 @@
+/* 顶部导航样式开始 */
+
+.juzhong{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_login{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 44px;
+}
+.nav_login p{
+    color: #666666;
+    font-size: 14px;
+    float: left;
+    line-height: 44px
+}
+.p_login a{
+    color: #666666;
+}
+.nav_login .p_login{
+    float: right;
+}
+.nav_logo{
+    background-color: white;
+    width: 100%;
+    height: 105px;
+}
+.nav_logo img{
+    float: left;
+}
+
+.nav_img img{
+    width: 100%;
+}
+.nav_label{
+    background-color: #c28f47;
+    height: 80px;
+}
+.nav_label li{
+    width: 170px;
+    margin: 0 65px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: white;
+    float: left;
+    margin-top: 10px;
+}
+.nav_label a{
+    color: white;
+}
+.nav_label li:hover{
+    background-color: #98661f;
+    border-radius: 10px;
+}
+.active{
+    background-color: #98661f;
+    border-radius: 10px;
+}
+
+/* 顶部导航样式结束 */
+
+
+/* 正文样式开始 */
+.jion_us{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+.join_content_top{
+    margin-top: 50px;
+}
+.jion_title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.join_title2{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+}
+.join_content p{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+hr{
+    margin-top: 30px
+}
+/* 正文样式结束 */
+
+
+/* 页脚样式开始 */
+.foot_top{
+    width: 100%;
+    height: 490px;
+    background-image: url('../img/图层\ 441.png') ;
+    background-size: 100% 491px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.foot_top img{
+    margin-top: 50px
+}
+.foot_top p{
+    color: white;
+    font-size: 18px;
+}
+.foot_top .foot_title{
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: 600
+}
+.footer{
+    width: 100%;
+    height: 176px;
+    background: #222;
+}
+.footer_warp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_left{
+    float: left;
+    padding-top: 45px;
+    text-align: left;
+}
+.footer_left_top{
+    color: #d4d4d4;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+.footer_left_content{
+    color: #d4d4d4;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+.footer_left_bottom{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+.footer_right{
+    float: right;
+}
+.QR_left{
+    float: left;
+    margin-top: 28px;
+    position: relative;
+    margin-left: 32px;
+}
+.QR_left p{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.QR_left_img{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+/* 页脚样式结束 */
+
+/* 固定定位导航样式开始 */
+.QR_right_top{
+    position: fixed;
+    bottom:180px;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    background: #C28F47;
+}
+.QR_right_top>img{
+    margin: 19px;
+}
+.QR_right_bottom{
+    position: fixed;
+    bottom:124px;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    background: #000;
+}
+.QR_right_bottom>img{
+    margin: 19px;
+}
+.QR_right_top:hover .QR_box{
+    display: block;
+}
+.QR_box{
+    display: none
+}
+.QR_box_content{
+    width:150px;
+    height:199px;
+    border:1px solid rgba(216, 216, 216, 1);
+    position: absolute;
+    top:0px;
+    right: 70px;
+    background: #fff;
+}
+.QR_box_triangle{
+    position: absolute;
+    top: 20px;
+    right:61.5px ;
+}
+.QR_box_content img{
+    margin: 12px 11px 60px 12px;
+    position: relative;
+}
+.QR_box_content_font{
+    position: absolute;
+    right: 18px;
+    bottom: 14px;
+    width: 110px;
+    height: 34px;
+    color: #333333;
+    font-size: 14px;
+}
+/* 固定定位导航样式结束 */
